@@ -127,3 +127,70 @@ btnContinue.addEventListener('click', function() {
     informationArea.classList.add('hide');
     questionBank.classList.remove('hide');
 })
+
+let currentQuiz = 0
+let score = 0
+let questionCount = 0;
+
+
+loadQuiz()
+
+function loadQuiz() {
+    deselectAnswers()
+
+    let currentQuizQuestion = quizQuestion[currentQuiz]
+    questionElements.innerText = currentQuizQuestion.question
+    a_data.innerText = currentQuizQuestion.a;
+    b_data.innerText = currentQuizQuestion.b;
+    c_data.innerText = currentQuizQuestion.c;
+    d_data.innerText = currentQuizQuestion.d;
+}
+
+function deselectAnswers() {
+    answerElements.forEach(answerElements => answerElements.checked = false)
+}
+
+/**
+function startGame() {
+    questionCount = 0;
+    score = 0;
+    getNewQuestion()
+}
+
+function getNewQuestion() {
+    questionCount++
+    if (quizQuestion.length === 0) {
+        displayResults();
+
+    }
+}
+progressCount.innerText = `Question: ${questionCount}`;
+
+*/
+
+function getSelected() {
+    let answer
+    answerElements.forEach(answerElements => {
+        if (answerElements.checked) {
+            answer = answerElements.id
+        }
+    })
+    return answer
+}
+
+submitBtn.addEventListener('click', () => {
+    let answer = getSelected()
+    if (answer) {
+        if (answer === quizQuestion[currentQuiz].correct) {
+            score++
+        }
+        currentQuiz++
+        if (currentQuiz < quizQuestion.length) {
+            loadQuiz()
+        } else {
+            quiz.innerHTML = `
+           <h2>You answered ${score}/${quizQuestion.length} questions correctly</h2>
+            <button onclick="location.reload()" class="reload">RETURN TO START</button>`
+    }
+}
+})

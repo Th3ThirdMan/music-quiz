@@ -13,7 +13,8 @@ body {
 }
 
 #start-box,
-#information-area {
+#information-area,
+#question-bank {
     width: 100vw;
     overflow: hidden;
     height: 100vh;
@@ -177,7 +178,7 @@ ul li {
     font-family: 'Libre Baskerville', sans-serif;
     border-radius: 10px;
     position: absolute;
-    height: 67vh;
+    height: 70vh;
     top: 50%;
     left: 50%;
     width: 60%;
@@ -239,4 +240,15 @@ ul li label {
 
 #submit:hover {
     background-color: rgb(202, 133, 4);
+}
+
+.reload {
+    background: black;
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 1.3rem;
 }
