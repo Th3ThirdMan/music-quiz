@@ -15,7 +15,7 @@
 
     <!-- The Start Page for the Quiz -->
 
-    <section id="start-box" class="hide">
+    <section id="start-box">
         <div class="inner-box">
             <h2 id="title-box">Now That's What I Call A Music Quiz <i class="fas fa-headphones"></i></h2>
             <hr>
@@ -55,33 +55,41 @@
 
     <!-- The Questions Page for the Quiz -->
 
-    <section id="question-bank">
+    <section id="question-bank" class="hide">
         <div class="quiz-container" id="quiz">
             <div class="quiz-header">
                 <h2 id="question">Now That's What I Call A Music Quiz </h2>
                 <ul>
+                    
                     <li>
+                        <div class="question-style">
                         <input type="radio" name="answer" id="a" class="answer">
                         <label for="a" id="a_data"></label>
+                    </div>
                     </li>
-
+                    
                     <li>
+                        <div class="question-style">
                         <input type="radio" name="answer" id="b" class="answer">
                         <label for="b" id="b_data"></label>
+                        </div>
                     </li>
-
+                    
                     <li>
+                        <div class="question-style">
                         <input type="radio" name="answer" id="c" class="answer">
                         <label for="c" id="c_data"></label>
+                        </div>
                     </li>
-
+                    
                     <li>
+                        <div class="question-style">
                         <input type="radio" name="answer" id="d" class="answer">
                         <label for="d" id="d_data"></label>
+                        </div>
                     </li>
-
+                    </div>
                 </ul>
-            </div>
             <div>
                 <button id="submit">SUBMIT</button>
                 <button id="question-btn-back">BACK</button>

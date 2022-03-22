@@ -184,7 +184,17 @@ ul li {
     background: #680a0a;
     border: 1px solid black;
     transform: translate(-50%, -50%);
-    min-height: 666px;
+}
+
+.question-style {
+    border: 1px solid white;
+    height: 35px;
+    border-radius: 12px;
+    width: 100%;
+    text-align: left;
+    background-color: rgb(202, 133, 4);
+    color: black;
+    padding: 0 10px;
 }
 
 .quiz-header {
@@ -201,8 +211,6 @@ h2 {
 
 ul {
     padding: 0;
-    align-items: center;
-    list-style-type: none;
 }
 
 ul li label {
