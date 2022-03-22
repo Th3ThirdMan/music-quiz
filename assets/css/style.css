@@ -170,7 +170,6 @@ ul li {
     text-transform: uppercase;
 }
 
-
 .quiz-container {
     display: flex;
     flex-flow: column;
@@ -187,8 +186,16 @@ ul li {
     transform: translate(-50%, -50%);
 }
 
+label {
+    margin-left: 50px;
+}
+
 .quiz-header {
     padding: 4rem;
+}
+
+input[type="radio"]:checked {
+    visibility: hidden;
 }
 
 #question,
