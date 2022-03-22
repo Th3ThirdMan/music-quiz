@@ -1,6 +1,6 @@
 // The Quiz Questions
 
-let quizQuestion = [{
+const quizQuestion = [{
     question: 'What year did The Smiths release Meat is Murder?',
     a: '1984',
     b: '1985',
@@ -18,7 +18,7 @@ let quizQuestion = [{
 },
 {
     question: 'Love My Way is a single by which English band?',
-    a: 'Sea Power (Formerly British Sea Power)',
+    a: 'Sea Power',
     b: 'Radiohead',
     c: 'The Psychedelic Furs',
     d: 'Suede',
@@ -38,7 +38,7 @@ let quizQuestion = [{
     b: 'Fontaines DC',
     c: 'The Fall',
     d: 'Sleaford Mods',
-    correct: 'd'
+    correct: 'd',
 },
 {
     question: 'Which Richard found earlier success as a member of the Britpop bands Pulp and Longpigs?',
@@ -63,24 +63,7 @@ let quizQuestion = [{
     c: 'David Bowie',
     d: 'Bob Dylan',
     correct: 'd',
-},
-{
-    question: 'Which legendary musician had film roles in The Prestige and Twin Peaks: Fire Walk With Me?',
-    a: 'David Bowie',
-    b: 'Nick Cave',
-    c: 'Phil Collins',
-    d: 'Sting',
-    answer: 'a',
-},
-{
-    question: 'Roger Taylor is the drummer in which band?',
-    a: 'ELO',
-    b: 'Queen',
-    c: 'Led Zeppelin',
-    d: 'Duran Duran',
-    answer: 'b',
-}
-]
+}]
 
 let quiz = document.getElementById('quiz');
 let a_data = document.getElementById('a_data');
@@ -90,8 +73,6 @@ let d_data = document.getElementById('d_data');
 let answerElements = document.querySelectorAll('.answer');
 let questionElements = document.getElementById('question');
 let submitBtn = document.getElementById('submit');
-
-
 
 let startBox = document.getElementById('start-box');
 let informationArea = document.getElementById('information-area');

@@ -184,19 +184,13 @@ ul li {
     background: #680a0a;
     border: 1px solid black;
     transform: translate(-50%, -50%);
-}
-
-label {
-    margin-left: 50px;
+    min-height: 666px;
 }
 
 .quiz-header {
     padding: 4rem;
 }
 
-input[type="radio"]:checked {
-    visibility: hidden;
-}
 
 #question,
 h2 {
@@ -207,6 +201,8 @@ h2 {
 
 ul {
     padding: 0;
+    align-items: center;
+    list-style-type: none;
 }
 
 ul li label {
