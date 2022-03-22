@@ -32,7 +32,7 @@
 
     <!-- The Information Details For the Quiz -->
 
-    <section id="information-area">
+    <section id="information-area" class="hide">
         <div class="information-box">
             <h2 id="information-header">Now That's What I Call A Music Quiz <i class="fas fa-headphones"></i></h2>
             <div class="information-info">Quiz Information</div>
@@ -49,6 +49,41 @@
             <div id="information-btns">
                 <button id="information-back" class="btn-back">Back</button>
                 <button id="information-continue" class="btn-continue">Continue</button>
+            </div>
+        </div>
+    </section>
+    <section id="question-bank">
+        <div class="quiz-container" id="quiz">
+            <div class="quiz-header">
+                <p id="progress-count">0</p>
+                <p id="score">0</p>
+                <h2 id="question">Now That's What I Call A Music Quiz </h2>
+                <ul>
+                    <li>
+                        <input type="radio" name="answer" id="a" class="answer">
+                        <label for="a" id="a_data"></label>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="answer" id="b" class="answer">
+                        <label for="b" id="b_data"></label>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="answer" id="c" class="answer">
+                        <label for="c" id="c_data"></label>
+                    </li>
+
+                    <li>
+                        <input type="radio" name="answer" id="d" class="answer">
+                        <label for="d" id="d_data"></label>
+                    </li>
+
+                </ul>
+            </div>
+            <div>
+                <button id="submit">SUBMIT</button>
+                <button id="question-btn-back">BACK</button>
             </div>
         </div>
     </section>

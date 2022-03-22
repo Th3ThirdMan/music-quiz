@@ -168,3 +168,75 @@ ul li {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
 }
+
+
+.quiz-container {
+    display: flex;
+    flex-flow: column;
+    color: white;
+    font-family: 'Libre Baskerville', sans-serif;
+    border-radius: 10px;
+    position: absolute;
+    height: 67vh;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    background: #680a0a;
+    border: 1px solid black;
+    transform: translate(-50%, -50%);
+}
+
+.quiz-header {
+    padding: 5rem;
+}
+
+#question,
+h2 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 1.5rem;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+#question-btn-back {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    width: 120px;
+    height: 50px;
+    border-radius: 15px;
+    text-decoration: none;
+    margin: 0 3rem auto;
+}
+
+#question-btn-back:hover {
+    background-color: rgb(202, 133, 4);
+}
+
+#submit {
+    color: white;
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    width: 120px;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 15px;
+    float: right;
+    margin: 0 3rem auto;
+    text-transform: capitalize;
+}
+
+#submit:hover {
+    background-color: rgb(202, 133, 4);
+}
