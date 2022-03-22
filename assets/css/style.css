@@ -22,13 +22,13 @@ body {
 }
 
 .inner-box {
-    position: absolute;
-    height: 60vh;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 70%;
-    background: #680a0a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10% 10%;
+    margin-right: 10%;
+    background-color: #680a0a;
     border: 1px solid black;
 }
 
@@ -43,12 +43,8 @@ body {
 }
 
 .test-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
 }
 
 #test-box-p {
@@ -69,8 +65,8 @@ body {
 }
 
 .start-area {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .start-btn {
