@@ -150,24 +150,6 @@ function deselectAnswers() {
     answerElements.forEach(answerElements => answerElements.checked = false)
 }
 
-/**
-function startGame() {
-    questionCount = 0;
-    score = 0;
-    getNewQuestion()
-}
-
-function getNewQuestion() {
-    questionCount++
-    if (quizQuestion.length === 0) {
-        displayResults();
-
-    }
-}
-progressCount.innerText = `Question: ${questionCount}`;
-
-*/
-
 function getSelected() {
     let answer
     answerElements.forEach(answerElements => {
