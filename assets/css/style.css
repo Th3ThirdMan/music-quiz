@@ -263,3 +263,59 @@ ul li label {
     font-size: 2rem;
     padding: 1.3rem;
 }
+
+@media only screen and (max-width: 460px) {
+    #information-continue {
+        margin-left: 30px;
+    }
+    #question-btn-back {
+        margin-left: 5px;
+        width: 100px;
+        height: 50px;
+        font-size: 2rem;
+    }
+    #submit {
+        width: 100px;
+        height: 50px;
+        font-size: 2rem;
+    }
+    
+@media only screen and (max-width: 400px) {
+        #information-continue {
+            width: 100px;
+            height: 40px;
+            margin-left: 10px;
+        }
+        ul li {
+            font-size: 1.5rem;
+            margin: 1rem 0;
+            padding: 2px;
+        }
+        #information-back {
+            width: 100px;
+            height: 40px;
+        }
+        .btn-back {
+            font-size: 1.5rem;
+        }
+        .btn-continue {
+            font-size: 1.5rem;
+        }
+        #question-btn-back {
+            width: 80px;
+            height: 40px;
+            font-size: 1rem;
+        }
+        #submit {
+            width: 80px;
+            height: 40px;
+            font-size: 1rem;
+        }
+        .style {
+            font-size: 10px;
+        }
+        #question {
+            font-size: 20px;
+        }
+    }
+}
