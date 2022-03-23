@@ -27,7 +27,6 @@ body {
     justify-content: center;
     flex-direction: column;
     margin: 10% 10%;
-    margin-right: 10%;
     background-color: #680a0a;
     border: 1px solid black;
 }
@@ -65,8 +64,7 @@ body {
 }
 
 .start-area {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    padding: 20px;
 }
 
 .start-btn {
@@ -89,12 +87,11 @@ body {
 }
 
 .information-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 60%;
-    height: 65vh;
-    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10% 10%;
     background: #680a0a;
     border: 1px solid black;
 }
@@ -120,9 +117,8 @@ div ul {
     list-style: none;
 }
 
-ul li {
-    font-size: 2rem;
-    margin: 1rem 0;
+#information-btns {
+    padding: 20px;
 }
 
 #information-back {
@@ -132,6 +128,7 @@ ul li {
     text-decoration: none;
     border-radius: 15px;
     margin: 10px 10px;
+    margin-right: 50px;
 }
 
 #information-back:hover {
@@ -168,18 +165,15 @@ ul li {
 
 .quiz-container {
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     color: white;
     font-family: 'Libre Baskerville', sans-serif;
     border-radius: 10px;
-    position: absolute;
-    height: 58vh;
-    top: 50%;
-    left: 50%;
-    width: 60%;
     background: #680a0a;
     border: 1px solid black;
-    transform: translate(-50%, -50%);
+    margin: 10% 10%;
 }
 
 .question-style {
@@ -202,12 +196,19 @@ ul li {
 h2 {
     text-align: center;
     margin: 0;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 ul {
     padding: 0;
 }
+
+ul li {
+    font-size: 2rem;
+    margin: 1rem 0;
+    padding: 2px;
+}
+
 
 ul li label {
     cursor: pointer;
@@ -218,12 +219,13 @@ ul li label {
     color: white;
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
     text-transform: uppercase;
     width: 120px;
     height: 50px;
     border-radius: 15px;
     text-decoration: none;
-    margin: 0 3rem auto;
+    margin-right: 50px;
 }
 
 #question-btn-back:hover {
@@ -231,22 +233,24 @@ ul li label {
 }
 
 #submit {
+    background-color: black;
     color: white;
-    cursor: pointer;
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
-    background-color: black;
+    cursor: pointer;
+    text-transform: uppercase;
     width: 120px;
     height: 50px;
-    text-decoration: none;
     border-radius: 15px;
-    float: right;
-    margin: 0 3rem auto;
-    text-transform: capitalize;
+    text-decoration: none;
 }
 
 #submit:hover {
     background-color: rgb(202, 133, 4);
+}
+
+#submit-back-btns {
+    padding: 30px;
 }
 
 .reload {
