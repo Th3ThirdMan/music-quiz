@@ -109,6 +109,7 @@ body {
     color: orange;
     font-size: 25px;
     text-align: center;
+    text-decoration: underline;
 }
 
 div ul {
@@ -331,6 +332,10 @@ ul li label {
             }
             #question {
                 font-size: 20px;
+            }
+
+            #information-header {
+                font-size: 25px;
             }
         }
     }
