@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins&family=Roboto:wght@100&display=swap');
+
 * {
     text-decoration: none;
     margin: 0;
@@ -275,42 +276,47 @@ ul li label {
     padding: 1.3rem;
 }
 
-@media only screen and (max-width: 460px) {
-    #information-continue {
-        margin-left: 30px;
-    }
+@media only screen and (max-width: 500px) {
+
     #question-btn-back {
         margin-left: 5px;
-        width: 100px;
-        height: 50px;
-        font-size: 2rem;
+        width: 95px;
     }
-    #submit {
-        width: 100px;
-        height: 50px;
-        font-size: 2rem;
-    }
+}
 
+    @media only screen and (max-width: 470px) {
 
-    @media only screen and (max-width: 460px) {
         #information-continue {
-            margin-left: 30px;
+            width: 95px;
+            height: 50px;
+            font-size: 1.5rem;
         }
+
+        #information-back {
+            width: 95px;
+            height: 50px;
+            font-size: 1.5rem;
+        }
+
+
         #question-btn-back {
-            margin-left: 5px;
-            width: 100px;
+            margin-left: 2px;
+            width: 80px;
             height: 50px;
-            font-size: 2rem;
+            font-size: 1.5rem;
         }
+
         #submit {
-            width: 100px;
+            width: 80px;
             height: 50px;
-            font-size: 2rem;
+            font-size: 1.5rem;
         }
-        @media only screen and (max-width: 400px) {
+    }
+
+        @media only screen and (max-width: 435px) {
 
             .start-btn {
-                width: 95px;
+                width: 80px;
                 height: 40px;
             }
 
@@ -318,39 +324,36 @@ ul li label {
                 font-size: 1.2rem;
             }
 
-            #information-continue {
-                width: 95px;
-                height: 40px;
-                margin-left: 8px;
-            }
             ul li {
                 font-size: 1.5rem;
                 margin: 1rem 0;
                 padding: 2px;
             }
-            #information-back {
-                width: 95px;
-                height: 40px;
-            }
+
             .btn-back {
                 font-size: 1.3rem;
             }
+
             .btn-continue {
                 font-size: 1.3rem;
             }
+
             #question-btn-back {
-                width: 80px;
-                height: 40px;
+                width: 70px;
+                height: 50px;
                 font-size: 1.2rem;
             }
+
             #submit {
-                width: 80px;
-                height: 40px;
+                width: 70px;
+                height: 50px;
                 font-size: 1.2rem;
             }
+
             .style {
                 font-size: 10px;
             }
+
             #question {
                 font-size: 20px;
             }
@@ -363,5 +366,58 @@ ul li label {
                 font-size: 1.5rem
             }
         }
-    }
-}
+
+            @media only screen and (max-width: 400px) {
+
+                #information-continue {
+                    width: 80px;
+                    height: 40px;
+                    font-size: 1.2rem;
+                }
+
+                #information-back {
+                    width: 80px;
+                    height: 40px;
+                    font-size: 1.2rem;
+                }
+
+                #question-btn-back {
+                    width: 65px;
+                    height: 50px;
+                    font-size: 1.2rem;
+                }
+
+                #submit {
+                    width: 65px;
+                    height: 50px;
+                    font-size: 1.2rem;
+                }
+            }
+
+                @media only screen and (max-width: 360px) {
+
+                    #information-continue {
+                        width: 70px;
+                        height: 35px;
+                        font-size: 1rem;
+                    }
+
+                    #information-back {
+                        width: 70px;
+                        height: 35px;
+                        font-size: 1rem;
+                    }
+
+                    #question-btn-back {
+                        width: 55px;
+                        height: 30px;
+                        font-size: 1rem;
+                    }
+
+                    #submit {
+                        width: 55px;
+                        height: 30px;
+                        font-size: 1rem;
+                    }
+                }
+            
