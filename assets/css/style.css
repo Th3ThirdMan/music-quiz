@@ -81,7 +81,7 @@ body {
 }
 
 #start-btn-btn {
-    color: white;
+    color:#0f0d07;
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
@@ -145,7 +145,7 @@ div ul {
 }
 
 .btn-back {
-    color: white;
+    color:#0f0d07;
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
@@ -166,7 +166,7 @@ div ul {
 }
 
 .btn-continue {
-    color: white;
+    color:#0f0d07;
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
@@ -227,14 +227,13 @@ ul li {
     padding: 2px;
 }
 
-
 ul li label {
     cursor: pointer;
 }
 
 #question-btn-back {
     background-color:#61b03f;
-    color: white;
+    color:#0f0d07;
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
@@ -253,7 +252,7 @@ ul li label {
 
 #submit {
     background-color:#61b03f;
-    color: white;
+    color:#0f0d07;
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
@@ -286,11 +285,6 @@ ul li label {
 }
 
 @media only screen and (max-width: 500px) {
-
-
-    body {
-        background-image: url('/assets/images/NTWICM.webp');
-    }
 
     #question-btn-back {
         margin-left: 5px;
