@@ -393,20 +393,19 @@ ul li label {
     }
 
     #question-btn-back {
-        width: 65px;
-        height: 50px;
+        width: 75px;
+        height: 40px;
         font-size: 1.2rem;
     }
 
     #submit {
-        width: 65px;
-        height: 50px;
+        width: 75px;
+        height: 40px;
         font-size: 1.2rem;
     }
 
     .question-style {
-        height: 30px;
-        padding: 2px;
+        height: 40px;
     }
 }
 
