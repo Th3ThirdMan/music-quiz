@@ -29,6 +29,7 @@ body {
     margin: 10% 10%;
     background-color: #680a0a;
     border: 1px solid black;
+    border-radius: 10px;
 }
 
 #title-box {
@@ -94,6 +95,7 @@ body {
     margin: 10% 10%;
     background: #680a0a;
     border: 1px solid black;
+    border-radius: 10px;
 }
 
 #information-header {
@@ -173,7 +175,7 @@ div ul {
     border-radius: 10px;
     background: #680a0a;
     border: 1px solid black;
-    margin: 10% 10%;
+    margin: 5% 10%;
 }
 
 .question-style {
@@ -184,6 +186,8 @@ div ul {
     text-align: left;
     background-color: rgb(202, 133, 4);
     color: black;
+    font-family: roboto;
+    font-weight: bold;
     padding: 10px;
     margin: 10px;
 }
@@ -249,6 +253,7 @@ ul li label {
     height: 50px;
     border-radius: 15px;
     text-decoration: none;
+    margin: 10px 10px;
 }
 
 #submit:hover {
@@ -256,7 +261,7 @@ ul li label {
 }
 
 #submit-back-btns {
-    padding: 30px;
+    padding: 40px;
 }
 
 .reload {

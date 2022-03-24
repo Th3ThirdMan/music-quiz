@@ -25,7 +25,7 @@ const quizQuestion = [{
     correct: 'c',
 },
 {
-    question: 'Reginald Kenneth Dwight is better known by what name?',
+    question: 'Which artist is better known as Reginald Kenneth Dwight?',
     a: 'Snoop Dogg',
     b: 'Elton John',
     c: 'Eminem',
@@ -57,7 +57,7 @@ const quizQuestion = [{
     correct: 'a',
 },
 {
-    question: 'Which music legend won the Nobel Prize for literature in 2016?',
+    question: 'Which musician won the Nobel Prize for literature in 2016?',
     a: 'Tom Waits',
     b: 'David Byrne',
     c: 'David Bowie',
@@ -114,10 +114,10 @@ let score = 0
 let questionCount = 0;
 
 
-loadQuiz()
+startQuiz()
 
-function loadQuiz() {
-    deselectAnswers()
+function startQuiz() {
+    noAnswers()
 
     let currentQuizQuestion = quizQuestion[currentQuiz]
     questionElements.innerText = currentQuizQuestion.question
@@ -127,11 +127,11 @@ function loadQuiz() {
     d_data.innerText = currentQuizQuestion.d;
 }
 
-function deselectAnswers() {
+function noAnswers() {
     answerElements.forEach(answerElements => answerElements.checked = false)
 }
 
-function getSelected() {
+function selectAnswers() {
     let answer
     answerElements.forEach(answerElements => {
         if (answerElements.checked) {
@@ -142,14 +142,14 @@ function getSelected() {
 }
 
 submitBtn.addEventListener('click', () => {
-    let answer = getSelected()
+    let answer = selectAnswers()
     if (answer) {
         if (answer === quizQuestion[currentQuiz].correct) {
             score++
         }
         currentQuiz++
         if (currentQuiz < quizQuestion.length) {
-            loadQuiz()
+            startQuiz()
         } else {
             quiz.innerHTML = `
            <h3>You answered ${score}/${quizQuestion.length} questions correctly</h3>
