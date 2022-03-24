@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins&family=Roboto:wght@100&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins&family=Roboto:wght@100;400&display=swap');
 
 * {
@@ -13,7 +13,6 @@ body {
     width: 100vw;
     height: 100vh;
     background-image: url('/assets/images/NTWICM.webp');
-    background-position:0cm;
 }
 
 #start-box,
@@ -292,6 +291,7 @@ ul li label {
     body {
         background-image: url('/assets/images/NTWICM.webp');
     }
+
     #question-btn-back {
         margin-left: 5px;
         width: 95px;
