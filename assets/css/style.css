@@ -288,10 +288,15 @@ ul li label {
 
 @media only screen and (max-width: 500px) {
 
+
+    body {
+        background-image: url('/assets/images/NTWICM.webp');
+    }
     #question-btn-back {
         margin-left: 5px;
         width: 95px;
     }
+
 }
 
     @media only screen and (max-width: 470px) {
