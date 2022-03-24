@@ -63,7 +63,7 @@ const quizQuestion = [{
     c: 'David Bowie',
     d: 'Bob Dylan',
     correct: 'd',
-}]
+}];
 
 let quiz = document.getElementById('quiz');
 let a_data = document.getElementById('a_data');
@@ -88,39 +88,37 @@ let progressCount = document.getElementById('progress-count');
 startBtn.addEventListener('click', function() {
     startBox.classList.add('hide');
     informationArea.classList.remove('hide');
-})
+});
 
 // Eventlisteners for the Back Buttons
 
 backButton.addEventListener('click', function() {
     startBox.classList.remove('hide');
     informationArea.classList.add('hide');
-})
+});
 
 questionBtnBack.addEventListener('click', function() {
     questionBank.classList.add('hide');
     informationArea.classList.remove('hide');
-})
+});
 
 // Eventlistener for the Continue Button
 
 btnContinue.addEventListener('click', function() {
     informationArea.classList.add('hide');
     questionBank.classList.remove('hide');
-})
+});
 
-let currentQuiz = 0
-let score = 0
-let questionCount = 0;
+let currentQuiz = 0;
+let score = 0;
 
-
-startQuiz()
+startQuiz();
 
 function startQuiz() {
-    noAnswers()
+    noAnswers();
 
-    let currentQuizQuestion = quizQuestion[currentQuiz]
-    questionElements.innerText = currentQuizQuestion.question
+    let currentQuizQuestion = quizQuestion[currentQuiz];
+    questionElements.innerText = currentQuizQuestion.question;
     a_data.innerText = currentQuizQuestion.a;
     b_data.innerText = currentQuizQuestion.b;
     c_data.innerText = currentQuizQuestion.c;
@@ -128,32 +126,32 @@ function startQuiz() {
 }
 
 function noAnswers() {
-    answerElements.forEach(answerElements => answerElements.checked = false)
+    answerElements.forEach(answerElements => answerElements.checked = false);
 }
 
 function selectAnswers() {
     let answer
     answerElements.forEach(answerElements => {
         if (answerElements.checked) {
-            answer = answerElements.id
+            answer = answerElements.id;
         }
-    })
-    return answer
+    });
+    return answer;
 }
 
 submitBtn.addEventListener('click', () => {
-    let answer = selectAnswers()
+    let answer = selectAnswers();
     if (answer) {
         if (answer === quizQuestion[currentQuiz].correct) {
-            score++
+            score++;
         }
-        currentQuiz++
+        currentQuiz++;
         if (currentQuiz < quizQuestion.length) {
-            startQuiz()
+            startQuiz();
         } else {
             quiz.innerHTML = `
            <h3>You answered ${score}/${quizQuestion.length} questions correctly</h3>
-            <button onclick="location.reload()" class="reload">RETURN TO START</button>`
+            <button onclick="location.reload()" class="reload">RETURN TO START</button>`;
     }
 }
-})
+});

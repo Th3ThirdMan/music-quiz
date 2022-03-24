@@ -308,6 +308,16 @@ ul li label {
             font-size: 2rem;
         }
         @media only screen and (max-width: 400px) {
+
+            .start-btn {
+                width: 95px;
+                height: 40px;
+            }
+
+            .start-btn-btn {
+                font-size: 1.2rem;
+            }
+
             #information-continue {
                 width: 95px;
                 height: 40px;
