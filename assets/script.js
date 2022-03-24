@@ -149,7 +149,7 @@ submitBtn.addEventListener('click', () => {
             startQuiz();
         } else {
             quiz.innerHTML = `
-           <h3>You answered ${score}/${quizQuestion.length} questions correctly</h3>
+           <h3><center>You answered ${score}/${quizQuestion.length} questions correctly</center></h3>
             <button onclick="location.reload()" class="reload">RETURN TO START</button>`;
     }
 }
