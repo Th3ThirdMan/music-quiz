@@ -316,8 +316,8 @@ ul li label {
         @media only screen and (max-width: 435px) {
 
             .start-btn {
-                width: 80px;
-                height: 40px;
+                width: 90px;
+                height: 45px;
             }
 
             .start-btn-btn {
@@ -392,6 +392,12 @@ ul li label {
                     height: 50px;
                     font-size: 1.2rem;
                 }
+
+                .question-style {
+
+                    height: 30px;
+                    padding: 2px;
+                    }
             }
 
                 @media only screen and (max-width: 360px) {
@@ -419,5 +425,11 @@ ul li label {
                         height: 30px;
                         font-size: 1rem;
                     }
+
+                    .question-style {
+
+                        height: 30px;
+                        padding: 2px;
+                        }
                 }
             
