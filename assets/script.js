@@ -81,7 +81,6 @@ let startBtn = document.getElementById('start-btn-btn');
 let btnContinue = document.getElementById('information-continue');
 let backButton = document.getElementById('information-back');
 let questionBtnBack = document.getElementById('question-btn-back');
-let progressCount = document.getElementById('progress-count');
 
 // EventListener for the Start Button
 

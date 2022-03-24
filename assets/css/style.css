@@ -11,6 +11,8 @@ body {
     font-family: 'Poppins', sans-serif;
     width: 100vw;
     height: 100vh;
+    background-image: url('/assets/images/NTWICM.webp');
+    background-position:0cm;
 }
 
 #start-box,
@@ -19,7 +21,6 @@ body {
     width: 100vw;
     overflow: hidden;
     height: 100vh;
-    background-color: rgb(41, 41, 41);
 }
 
 .inner-box {
@@ -28,16 +29,16 @@ body {
     justify-content: center;
     flex-direction: column;
     margin: 10% 10%;
-    background-color: #680a0a;
-    border: 1px solid black;
+    background-color: #fcff4a;
     border-radius: 10px;
+    opacity: 0.95;
 }
 
 #title-box {
     font-family: 'Libre Baskerville', sans-serif;
     line-height: 50px;
     font-size: 30px;
-    color: white;
+    color: black;
     text-align: center;
     padding: 15px;
     text-transform: uppercase;
@@ -54,11 +55,11 @@ body {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
-    color: orange;
+    color: #e8533c;
 }
 
 #test-start-p {
-    color: white;
+    color: #4f61d5;
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
     padding-top: 50px;
@@ -70,7 +71,7 @@ body {
 }
 
 .start-btn {
-    background-color: rgb(24, 23, 23);
+    background-color: #61b03f;
     width: 200px;
     height: 70px;
     text-decoration: none;
