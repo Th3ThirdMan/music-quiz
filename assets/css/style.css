@@ -26,7 +26,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 20% 5%;
+    margin: 10% 5%;
     background-color: #fcff4a;
     border-radius: 10px;
     border: solid 1px #0f0d07;
@@ -85,6 +85,10 @@ body {
     text-transform: uppercase;
 }
 
+#start-btn-btn:hover {
+    color: white;
+}
+
 .start-btn:hover {
     background-color: #4f61d5;
 }
@@ -94,7 +98,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 20% 5%;
+    margin: 10% 5%;
     background-color: #fcff4a;
     border: 1px solid black;
     border-radius: 10px;
@@ -149,6 +153,10 @@ div ul {
     text-transform: uppercase;
 }
 
+.btn-back:hover {
+    color: white;
+}
+
 #information-continue {
     background-color: #61b03f;
     width: 120px;
@@ -170,6 +178,10 @@ div ul {
     text-transform: uppercase;
 }
 
+.btn-continue:hover {
+    color: white;
+}
+
 .quiz-container {
     display: flex;
     flex-direction: column;
@@ -180,7 +192,7 @@ div ul {
     border-radius: 10px;
     background-color: #fcff4a;
     border: 1px solid black;
-    margin: 10% 5%;
+    margin: 5% 5%;
     opacity: 0.9;
 }
 
@@ -190,8 +202,8 @@ div ul {
     border-radius: 12px;
     width: 100%;
     text-align: left;
-    background-color:#61b03f;
-    color: black;
+    background-color:#f16751;
+    color: white;
     font-family: roboto;
     font-weight: 400;
     padding: 10px;
@@ -200,7 +212,6 @@ div ul {
 
 .question-style:hover {
     background-color: #4f61d5;
-    color: white;
 }
 
 .quiz-header {
@@ -230,7 +241,7 @@ ul li label {
 }
 
 #question-btn-back {
-    background-color:#4f61d5;
+    background-color:#61b03f;
     color: #0f0d07;
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
@@ -245,11 +256,12 @@ ul li label {
 }
 
 #question-btn-back:hover {
-    background-color:#e8533c;
+    background-color:#4f61d5;
+    color: white;
 }
 
 #submit {
-    background-color:#4f61d5;
+    background-color:#61b03f;
     color: #0f0d07;
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
@@ -264,7 +276,8 @@ ul li label {
 }
 
 #submit:hover {
-    background-color:#e8533c;
+    background-color:#4f61d5;
+    color: white;
 }
 
 #submit-back-btns {
