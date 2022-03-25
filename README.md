@@ -119,7 +119,7 @@ The Information page gives simple instructions on how to complete the quiz and w
 <br><br>
 
 
-## The Home Page, Images & Description
+## The Start Page
 
 <br>
 
@@ -138,7 +138,7 @@ The Information page gives simple instructions on how to complete the quiz and w
 
   <br>
 
-  ## The Walks Page
+  ## The Information Page
 
   <br>
 
@@ -150,7 +150,7 @@ The Information page gives simple instructions on how to complete the quiz and w
 
   <br><br>
 
-  ## The Gallery Page
+  ## The Questions Page
 
   <br>
 
@@ -159,31 +159,6 @@ The Information page gives simple instructions on how to complete the quiz and w
   * Links at the base of the page give options for a reader to visit the Contact Page seamlessly.
 
   <br><br>
-
-  ## The Contact Us Page
-
-  <br>
-
-  * The Contact Page is an essential part of the website where users can get in touch to ask more about the website and the content inside of it. In the case of this Contact Page it invites visitors to provide their e-mail details so they can subscribe to a newsletter.
-
-  * The Contact Page possesses a form which is conceived as a dummy form and does not collect any data.
-
-  <br><br>
-
-  ## Footer
-
-  <br>
-
-  * The footer section links work as designed and lead a user to the appropriate websites when the icons are clicked.
-
-  * They are aligned closely together, centered, with a flex display.
-
-  * Hover options on social media icons yielded a rgb(245, 73, 6) for good contrast.
-
-  * The icons were imported from Font Awesome as outlined in the index.html file with a JavaScript link.
-
-  <br><br>
-
 
   # Testing
 
@@ -197,9 +172,21 @@ The Information page gives simple instructions on how to complete the quiz and w
 
   * No errors were recorded when entered into the official W3C Validator for HTML.
 
+  <br>
+
+  ![Image of HTML Validator](assets/images/htmlvalid.png)
+
   * No errors were recorded when entered into the official W3C Validator for CSS.
 
   <br>
+
+  ![Image of CSS Validator](assets/images/cssvalid.png)
+
+  * No errors were recorded when entered into the official W3C Validator for JavaScript.
+
+  <br>
+
+
 
   # Web Developer Tools
   
@@ -265,12 +252,7 @@ The Information page gives simple instructions on how to complete the quiz and w
     <br>
 
       The project was well supported via various channels within the Slack application. There was a lot of information posted up on the myriad of difficulties that arose throughout the project. Suffice to say, this was a great help in understanding issues and also a good opportunity to ask some questions of my own. The support and knowledge offered in these channels was a very valuable resource and helped massively to aid project completion. 
-
-      Indubitably, notable mentions must also be offered in respect to the advice imparted by the sagely Chris Quinn. He was constructive and knowledgeable when it came to pointing me in the right direction and offering up advice on areas that proved troublesome. Thanks Chris.
-
-      I also want to offer up a word of thanks to David Bowers, the Slack Support Supremo. His advice towards the latter part of the project proved the elixir to get things where they needed to be for submission. His Super Solutions avatar is definitely a fitting one. The speed at which this guy works is extraordinary! His advice was brilliant to say the least, and his ability to explain concepts to lesser mortals in such a rudimentary fashion is a skill very few can master. Thanks David.
-
-
+      
     <br>
 
     ## Content & Media
