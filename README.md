@@ -4,13 +4,15 @@
 ## Site Overview
 
 
-The Now That's What I Call a Music Quiz is a parodic ode to the biggest selling album compilation brand in the world, which first came to light in the early 80s. The website is a quizzical resource created for those who enjoy music and the more kitsch elements this brand has continued to exhibit from the 80s to this current day. It is designed to test the musical knowledge of those who partake in the quiz, offering questions that span a few decades.
+The Now That's What I Call a Music Quiz is a parodic ode to the biggest selling album compilation brand in the world, which first came to light in the early 80s. The website is a quizzical resource created for those who enjoy music and the more kitsch elements this brand has continued to exhibit from the 80s to this current day. It is designed to test the musical knowledge of those who partake in the quiz, offering questions that span a number of decades.
 <br><br>
 
 It is a quiz designed to be interacted with by people of all ages and its use serves to provide a fun and brain-teasing experience for those who want to know if their knowledge is up to scratch musically. 
 <br><br>
 
-The Home page of the quiz is the primary source that reflects a strong and appealing visual of what the quiz is all about. The opening title highlights a relationship to music and reference a well-known and love brand in an anachronistic manner. Enthusiasts of the brand through all eras can relate to the slogan "Now That's What I Call Music!". This is emblazoned on the Home page as a strong title. The background image is the official logo representative of Now 3 to Now 17, from years 1984 to 1990. On the Information page it indicates there are 8 questions available for users to attempt. This is a whittled down question bank that lends to the 8 surrounding the 80s theme.
+The Home page of the quiz is the primary source that reflects a strong and appealing visual of what the quiz is all about. The opening title highlights a relationship to music and references a well-known and loved brand in an anachronistic manner. Enthusiasts of the brand through all eras can relate to the slogan "Now That's What I Call Music!". This is emblazoned on the Home page as a strong title. The background image is the official logo representation of NTWICM compilation albums from Now 3 through to Now 17, covering 1984 to 1990. 
+
+The Information page gives simple instructions on how to complete the quiz and what the user will come to expect. On the Information page it indicates there are 8 questions available for users to attempt. It shows instructions on how to get to the quiz, how to submit answers, and how many questions will be totted up correctly upon conclusion of the quiz.
 <br><br>
 
 
@@ -25,7 +27,7 @@ The Home page of the quiz is the primary source that reflects a strong and appea
 
 * People who enjoy music.
 
-* People who are interested in finding out more about various artists and musicians spanning the decades since the 80s.
+* People who are interested in finding out more about various artists and musicians that are referenced in the quiz.
 
 * People who have a penchant for taking part in quizzes, testing themselves on music from different eras.
 
@@ -47,9 +49,9 @@ The Home page of the quiz is the primary source that reflects a strong and appea
 
 ## Returning Visitors
 
-* For returning visitors it would be good to have updated information on new walks.
+* For returning visitors it would be good to have a larger bank of questions for a user to test themselves.
 
-* For returning visitors new images and information on new walks would be great to see.
+* For returning visitors an indicator of correct and incorrect answers during the quiz would be helpful.
 
 <br>
 
@@ -63,7 +65,7 @@ The Home page of the quiz is the primary source that reflects a strong and appea
 
 <br>
 
-* For the colour schema of the website I largely drew from a personal aesthetic in a protracted and considered fashion. I mixed and matched colours that I felt coincided well off the palette. The body colourway proved to be the most regularly amended and I finally resolved on rgba(10, 23, 34, 0.712). I think this colour set well with the images placed within the main body of the website, in particular on the Walks page.
+* For the colour schema of the website I initially drew from a personal aesthetic that I felt could work well as a quiz. I mixed and matched colours that I felt coincided well off the palette but as the project was partially based on a theme I decided to go with colours that complimented the thematic background image. To mirror the retro colourway of the other elements on the site I used Pixlr to grab the original logo colours. This worked well and gave the quiz a more vibrant and fun feel, which is the desired effect of a quiz endeavour. The primary trio of colours were as follows: #fcff4a, #4f61d5, #61b03f.
 
 * Navbar links and Heading text in the Home page were offered the unadventurous, but stellar rgb(255, 255, 255). This worked well and in keeping with a simple and understated look, but nonetheless, a classic design.
 
