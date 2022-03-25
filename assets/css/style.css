@@ -27,7 +27,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 10% 10%;
+    margin: 300px 50px;
     background-color: #fcff4a;
     border-radius: 10px;
     border: solid 1px #0f0d07;
@@ -95,7 +95,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 10% 10%;
+    margin: 300px 50px;
     background-color: #fcff4a;
     border: 1px solid black;
     border-radius: 10px;
@@ -181,7 +181,7 @@ div ul {
     border-radius: 10px;
     background-color: #fcff4a;
     border: 1px solid black;
-    margin: 5% 10%;
+    margin: 300px 50px;
     opacity: 0.9;
 }
 
@@ -405,7 +405,7 @@ ul li label {
     }
 
     .question-style {
-        height: 40px;
+        height: 45px;
     }
 }
 

@@ -4,16 +4,14 @@
 ## Site Overview
 
 
-The Now That's What I Call a Music Quiz is a parodic ode to the biggest selling album compilation brand in the world, which first came to light in the early 80s. The website is a quizzical resource created for those who enjoy music and the kitsch elements this brand has continued to extol from the 80s to this current day. It is designed to test the knowledge of those who partake in the quiz, offering questions from each different decade.
+The Now That's What I Call a Music Quiz is a parodic ode to the biggest selling album compilation brand in the world, which first came to light in the early 80s. The website is a quizzical resource created for those who enjoy music and the more kitsch elements this brand has continued to exhibit from the 80s to this current day. It is designed to test the musical knowledge of those who partake in the quiz, offering questions that span a few decades.
 <br><br>
 
-It is a quiz designed to be interacted with by people of all ages and its use serves to provide a fun and brain-shaking experience for those who feel their knowledge is up to scratch musically. 
+It is a quiz designed to be interacted with by people of all ages and its use serves to provide a fun and brain-teasing experience for those who want to know if their knowledge is up to scratch musically. 
 <br><br>
 
-The Home page of the quiz is the primary source that reflects a strong and appealing visual of what the quiz is all about. It highlights it's relationship and reference in an anachronistic manner with the opening title. Enthusiasts of the brand through all eras can relate to the well-known slogan "Now That's What I Call Music!". This is emblazoned on the Home page as a strong title. Coupled with this, the page indicates there are 8 questions available for users to attempt. This is a whittled down amount that lends to an almost 80s theme. additional historical information and anecdotal content which site visitors can enjoy.
+The Home page of the quiz is the primary source that reflects a strong and appealing visual of what the quiz is all about. The opening title highlights a relationship to music and reference a well-known and love brand in an anachronistic manner. Enthusiasts of the brand through all eras can relate to the slogan "Now That's What I Call Music!". This is emblazoned on the Home page as a strong title. The background image is the official logo representative of Now 3 to Now 17, from years 1984 to 1990. On the Information page it indicates there are 8 questions available for users to attempt. This is a whittled down question bank that lends to the 8 surrounding the 80s theme.
 <br><br>
-
-The Information Page gives the user 
 
 
 ![Image of Music Quiz](assets/images/amiresponsive.png)
