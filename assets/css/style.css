@@ -9,11 +9,9 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    width: 100vw;
-    height: 100vh;
     background-image: url('../images/NTWICM.jpg');
 }
-
+/*
 #start-box,
 #information-area,
 #question-bank {
@@ -21,13 +19,14 @@ body {
     overflow: hidden;
     height: 100vh;
 }
+*/
 
 .inner-box {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 10% 5%;
+    margin: 20% 5%;
     background-color: #fcff4a;
     border-radius: 10px;
     border: solid 1px #0f0d07;
@@ -95,7 +94,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 10% 5%;
+    margin: 20% 5%;
     background-color: #fcff4a;
     border: 1px solid black;
     border-radius: 10px;
