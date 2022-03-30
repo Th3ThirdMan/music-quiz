@@ -77,7 +77,7 @@ The Information page gives simple instructions on how to complete the quiz and w
 
 <br>
 
-* Font Families included Serif, Helvetica, Source Sans Pro for the Body. I felt that Serif complimented the unfussiness of the webpages, especially for navigation links and welcome text. It added a clarity and refinedness that the pages deserved. 
+* Font Families included Libre Baskerville, Poppins & Roboto for the Body. I felt that Libre Baskerville (not excluding its excellent name) complimented the quiz , especially for navigation links and welcome text. It added a clarity and refinedness that the pages deserved. 
 
 * Roboto was utilised for text information in the Walks page. This went well with the lightness in attitude of the Walks page. Roboto added to those descriptions, also complimenting the character of the Walks descriptions.
 
@@ -133,7 +133,7 @@ The Information page gives simple instructions on how to complete the quiz and w
 
   <br>
 
-  ![Home Page Main Image](assets/images/hapenny.png) 
+  ![Home Page Main Image](assets/images/start-page.png) 
   *Figure 1.3*
 
   <br>
@@ -154,9 +154,9 @@ The Information page gives simple instructions on how to complete the quiz and w
 
   <br>
 
-  * The Gallery Page highlights a myriad of vistas and points of interest around Dublin City. It gives a nice visual of what visitors to the site could come to expect about this location.
+  * 
 
-  * Links at the base of the page give options for a reader to visit the Contact Page seamlessly.
+  * 
 
   <br><br>
 
@@ -186,8 +186,6 @@ The Information page gives simple instructions on how to complete the quiz and w
 
   <br>
 
-
-
   # Web Developer Tools
   
   <br>
@@ -202,11 +200,11 @@ The Information page gives simple instructions on how to complete the quiz and w
 
   # Future Features
 
-  * Build out the Contact Page to a more in-depth query based form, with a textarea and submit button, prompting visitors to the site to be more expansive in their thoughts and have the ability to put questions to the business or site owner.
+  * Add a question counter to denote to the user how far along in the quiz they are.
 
-  * Add in an Upcoming Walks feature that will turn previous visitors into return visitors.
+  * Include a feature that highlights correct or incorrect answers.
 
-  * Employing a Map feature which indicates where all the walking locations are.
+  * Exclude the use of radio buttons for alternatives that allow a user to click just the answer box.
 
   <br><br>
 
@@ -236,24 +234,16 @@ The Information page gives simple instructions on how to complete the quiz and w
 
   * The website was deployed to GitHub Pages in the following manner:
 
-    * From the project's [Repository](https://github.com/Th3ThirdMan/dublin-city-walks) go to Settings:
+    * From the project's [Repository](https://github.com/Th3ThirdMan/music-quiz) go to Settings:
     * Scroll down to GitHub Pages
     * Select Branch, Main & Save.
     * A message will indicate that the project has been successfully deployed here and a live link is available.
 
     <br>
 
-    You can find the live site here: [Dublin City Walks](https://th3thirdman.github.io/dublin-city-walks/)
+    You can find the live site here: [Music Quiz](https://th3thirdman.github.io/music-quiz/)
 
     <br><br>
-
-    # Credits
-
-    <br>
-
-      The project was well supported via various channels within the Slack application. There was a lot of information posted up on the myriad of difficulties that arose throughout the project. Suffice to say, this was a great help in understanding issues and also a good opportunity to ask some questions of my own. The support and knowledge offered in these channels was a very valuable resource and helped massively to aid project completion. 
-      
-    <br>
 
     ## Content & Media
 
@@ -262,14 +252,11 @@ The Information page gives simple instructions on how to complete the quiz and w
     The content and media used during the project was sourced and referenced as follows:
 
     <br>
-
-     * Images [Tales from the Lens](https://talesfromthelens.com/best-walks-in-dublin-city-centre/)
-     * Images [Jetsetting Fools](https://jetsettingfools.com/dublin-ireland-self-guided-walking-tour/)
-     * Images & Text [Sidewalk Safari](https://www.sidewalksafari.com/2021/05/best-dublin-walks.html)
-     * Markdown Guide [Ionos](https://www.ionos.com/digitalguide/websites/web-development/markdown/)
-     * File Conversion [X-Convert](https://www.xconvert.com/)
+    
+     * Photo Editor [Pixlr](https://pixlr.com/x/#home)
      * Knowledge Base [W3Schools](https://www.w3schools.com/)
      * Responsive Aid [AmIResponsive](http://ami.responsivedesign.is/)
-     * Flexbox Tutorial [Flexbox](https://www.youtube.com/watch?v=FTlczfR82mQ)
+     * Build a Quiz App with JavaScript [YouTube](https://www.youtube.com/watch?v=riDzcEQbX6k)
+     * Create a Quiz App Using HTML, CSS & JavaScript [YouTube](https://www.youtube.com/watch?v=CqddbIrEM5I)
      * Social Media Icons [Font Awesome](https://fontawesome.com/)
      * Fonts [Google Fonts](https://fonts.google.com/)

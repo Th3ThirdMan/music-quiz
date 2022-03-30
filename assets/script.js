@@ -108,10 +108,16 @@ btnContinue.addEventListener('click', function() {
     questionBank.classList.remove('hide');
 });
 
+// Variables for Quiz
+
 let currentQuiz = 0;
 let score = 0;
 
 startQuiz();
+
+/**
+ * A function that initialises the variables and takes questions from the Quiz Questions 
+ */
 
 function startQuiz() {
     noAnswers();
@@ -127,6 +133,9 @@ function startQuiz() {
 function noAnswers() {
     answerElements.forEach(answerElements => answerElements.checked = false);
 }
+/**
+ * A function that initialises variables to allow selecting an answer
+ */
 
 function selectAnswers() {
     let answer
@@ -137,6 +146,7 @@ function selectAnswers() {
     });
     return answer;
 }
+// Allows answers to be submitted increasing the score by 1 on all correct answers
 
 submitBtn.addEventListener('click', () => {
     let answer = selectAnswers();
@@ -144,6 +154,8 @@ submitBtn.addEventListener('click', () => {
         if (answer === quizQuestion[currentQuiz].correct) {
             score++;
         }
+// Function hides all screens and displays a final score with an option to return to start page
+
         currentQuiz++;
         if (currentQuiz < quizQuestion.length) {
             startQuiz();
