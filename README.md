@@ -87,43 +87,11 @@ The Information page gives simple instructions on how to complete the quiz and w
 
 <br>
 
-
-## Navigation
-
-<br>
-
-   * The Navigation Bar is featured on all 4 pages of the website.
-
-   * The top left-hand side of the page features the website Name: Dublin City Walks. There is no active link attached to this logo.
-
-   * Active navigation links reside to the top right-hand side of the page. They are as follows: Home, Walks, Gallery, Contact. These link to 3 further separate pages in the website.
-
-   * The links created give a good overview of what the website is conveying and creates a simplistic, clean view of how one should navigate the site. 
-
-   * Prevailing colours for the Navigation bar were designed in a contrasting black and white *(Figure 1.1)*
-
-   * A hover red option with a text decoration underline is present on all Navigation links on all pages *(Figure 1.2)*  
-
-   * A hamburger menu was initially entertained and created, but the inclusion of JavaScript felt it wouldn't be within the remit of Portfolio requirements. This could be an option for later Portfolio submissions.
-
-
-<br><br>
-
-   ![Image of Navigation Bar](assets/images/navigation-bar.png)
-   *Figure 1.1*
-   <br><br>
-
-   ![Image of Navigation Bar:Hover](assets/images/navigationbar-hover.png)
-   *Figure 1.2*
-
-<br><br>
-
-
 ## The Start Page
 
 <br>
 
-  * The Home Page consists of the quintessentially unmistakeable backdrop of an iconic landmark in that of the H'apenny Bridge. Plenty of feet have tread this bridge for centuries so it felt appropriate to make this a centrepoint image on the landing page.
+  * The Start Page consists of the quintessentially unmistakeable backdrop of an iconic landmark in that of the H'apenny Bridge. Plenty of feet have tread this bridge for centuries so it felt appropriate to make this a centrepoint image on the landing page.
 
   * The logo sentiment is reiterated and also an added textual sentiment is present to indicate that Dublin is an exciting city that is built for walking.
 
