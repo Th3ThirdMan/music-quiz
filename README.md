@@ -10,13 +10,14 @@ The Now That's What I Call a Music Quiz is a parodic ode to the biggest selling 
 It is a quiz designed to be interacted with by people of all ages and its use serves to provide a fun and brain-teasing experience for those who want to know if their knowledge is up to scratch musically. 
 <br><br>
 
-The Home page of the quiz is the primary source that reflects a strong and appealing visual of what the quiz is all about. The opening title highlights a relationship to music and references a well-known and loved brand in an anachronistic manner. Enthusiasts of the brand through all eras can relate to the slogan "Now That's What I Call Music!". This is emblazoned on the Home page as a strong title. The background image is the official logo representation of NTWICM compilation albums from Now 3 through to Now 17, covering 1984 to 1990. 
+The Home page of the quiz is the primary source that reflects a strong and appealing visual of what the quiz is all about. The opening title highlights a relationship to music and references a well-known and loved brand in an anachronistic manner. Enthusiasts of the brand through all eras can relate to the slogan "Now That's What I Call Music!". This is emblazoned on the Home page in the form of a strong title. The background image is the official logo representation of NTWICM compilation albums from Now 3 through to Now 17, covering years 1984 to 1990. 
 
-The Information page gives simple instructions on how to complete the quiz and what the user will come to expect. On the Information page it indicates there are 8 questions available for users to attempt. It shows instructions on how to get to the quiz, how to submit answers, and how many questions will be totted up correctly upon conclusion of the quiz.
+The Information page gives simple instructions on how to complete the quiz and what the user will come to expect. On the Information page it indicates there are 8 questions available for users to attempt. It shows instructions on how to get to the quiz, how to submit answers, and how many correct questions will be totted up upon conclusion of the quiz.
 <br><br>
 
 
 ![Image of Music Quiz](assets/images/amiresponsive.png)
+
 <br>
 
 # Planning Stage
@@ -67,9 +68,9 @@ The Information page gives simple instructions on how to complete the quiz and w
 
 * For the colour schema of the website I initially drew from a personal aesthetic that I felt could work well as a quiz. I mixed and matched colours that I felt coincided well off the palette but as the project was partially based on a theme I decided to go with colours that complimented the thematic background image. To mirror the retro colourway of the other elements on the site I used Pixlr to grab the original logo colours. This worked well and gave the quiz a more vibrant and fun feel, which is the desired effect of a quiz endeavour. The primary trio of colours were as follows: #fcff4a, #4f61d5, #61b03f.
 
-* Navbar links and Heading text in the Home page were offered the unadventurous, but stellar rgb(255, 255, 255). This worked well and in keeping with a simple and understated look, but nonetheless, a classic design.
+* In addition to the 3 colours dedicated to the entirety of the quiz pages a rgb(253, 246, 180) was utilised as a background colour in the quiz section. A white background did initially suffice here but I felt it needed more refining. This colour worked better when dropped behind the yellow quiz box.
 
-* Hover options on navigation links and social media icons yielded a rgb(245, 73, 6) for good contrast.
+* Hover options on buttons employed the primary colours set for the project, specifically matched to the NTWICM logo.
 
 <br>
 
@@ -77,9 +78,9 @@ The Information page gives simple instructions on how to complete the quiz and w
 
 <br>
 
-* Font Families included Libre Baskerville, Poppins & Roboto for the Body. I felt that Libre Baskerville (not excluding its excellent name) complimented the quiz , especially for navigation links and welcome text. It added a clarity and refinedness that the pages deserved. 
+* Font Families included Libre Baskerville, Poppins, and Roboto for the Body. I felt that Libre Baskerville (not excluding its excellent name) complimented the quiz, It added a clarity and refinedness that the pages deserved. 
 
-* Roboto was utilised for text information in the Walks page. This went well with the lightness in attitude of the Walks page. Roboto added to those descriptions, also complimenting the character of the Walks descriptions.
+* Roboto was utilised for text information in the Walks page. This went well with the lightness in attitude of what is expected in a quiz. 
 
 <br><br>
 
@@ -91,13 +92,9 @@ The Information page gives simple instructions on how to complete the quiz and w
 
 <br>
 
-  * The Start Page consists of the quintessentially unmistakeable backdrop of an iconic landmark in that of the H'apenny Bridge. Plenty of feet have tread this bridge for centuries so it felt appropriate to make this a centrepoint image on the landing page.
+  * The Start Page consists of the NTWICM logo set as a background with a simple box outlining the nature of the site, how many questions are to be answered, and the means to progress on through to the quiz. 
 
-  * The logo sentiment is reiterated and also an added textual sentiment is present to indicate that Dublin is an exciting city that is built for walking.
-
-  * The image adopts a transform and zoom element which gives depth upon opening the page. 
-
-  * The smaller images coupled with text give more than just a visual representation, plus it gives a taste of the history of Dublin when people partake in walks around the city.
+  * An opacity element was integrated into the inner box feature allowing more transparency to view the background.
 
   <br>
 
@@ -109,25 +106,25 @@ The Information page gives simple instructions on how to complete the quiz and w
 
   <br>
 
-  * The Walks Page consists of a primary 40em image with an eye-catching text description of the best walks available to anyone who visits the site.
+  * The Information Page consists of the primary details and instructions on how to take part in the quiz.
 
-  * There is a varied amount of imagery depicting the landscape, but there is context to each location drawing from Irish literature to scenic vistas. This gives the reader a sense of not only the prospect of a nice walk, but an historical outlay of what's worth visiting in Dublin. 
-
-  * Links at the base of the page give the visitor an option to visit the Gallery or Contact Page.
+  * The only interactive parts on this page are the buttons which allow users to advance or return to the Start page.
 
   <br>
 
   ![Information Page](assets/images/information-page.png)
 
-  <br><br>
+  <br>
 
   ## The Questions Page
 
   <br>
 
-  * 
+  * The Questions Page is where a bank of 8 questions on music are compiled and rendered.
 
-  * 
+  * Interactive parts come in the form of radio buttons where an answer can be selected, and again, through Back and Submit buttons, allowing a user to return back to the Information or Start page or submit an answer to the quiz.
+
+  <br>
 
   ![Quiz Page](assets/images/quiz-page.png)
 
@@ -141,23 +138,37 @@ The Information page gives simple instructions on how to complete the quiz and w
 
   <br>
 
+  # Responsiveness
+
+  ![Image of Music Quiz](assets/images/responsive-design.png)
+
+  <br>
+
+  * The responsiveness of the site was ran through [Responsive Design Checker](https://responsivedesignchecker.com/) and rendered well on all mobile devices during testing.
+
+  <br>
+
   # Validation
 
   * No errors were recorded when entered into the official W3C Validator for HTML.
 
   <br>
 
-  ![Image of HTML Validator](assets/images/htmlvalid.png)
+  ![Image of HTML Validator](assets/images/html-valid.png)
 
   * No errors were recorded when entered into the official W3C Validator for CSS.
 
   <br>
 
-  ![Image of CSS Validator](assets/images/cssvalid.png)
+  ![Image of CSS Validator](assets/images/css-valid.png)
 
-  * No errors were recorded when entered into the official W3C Validator for JavaScript.
+  * No errors were recorded when entered into JSHint.
 
   <br>
+
+  ![Image of JavaScript Validator](assets/images/js-valid.png)
+
+  <br><br>
 
   # Web Developer Tools
   
@@ -189,7 +200,7 @@ The Information page gives simple instructions on how to complete the quiz and w
 
   * Much to my chagrin, the project's quiz page featured radio buttons which wouldn't have been an initial preference for inclusion. They work as designed, but limitations in time and JavaScript learning prevented a nicer styling method whereby a user can submit answers. It wasn't necessarily a bug but I attempted many workarounds to diminish or hide their presence as I felt that they didn't quite suit the aesthetic of the quiz that I was hoping to make.
 
-  * Again with the sub-images on the Welcome page the images didn't align correctly as per my expectation, but through testing and research the background-size property played a part in correcting this.
+  * For the interactive parts of the project I encountered some difficulty with JavaScript, primarily with the quiz page. The scores for the quiz didn't add up correctly, but I discovered that the reason for this inaccuracy was down to syntax errors when writing up the quiz questions. Correcting the amount of commas alleviated this problem.
 
   <br><br>
 
@@ -233,3 +244,4 @@ The Information page gives simple instructions on how to complete the quiz and w
      * Create a Quiz App Using HTML, CSS & JavaScript [YouTube](https://www.youtube.com/watch?v=CqddbIrEM5I)
      * Social Media Icons [Font Awesome](https://fontawesome.com/)
      * Fonts [Google Fonts](https://fonts.google.com/)
+     * Responsive Design [Responsivedesignchecker](https://responsivedesignchecker.com/)

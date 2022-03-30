@@ -78,7 +78,7 @@ body {
 }
 
 #start-btn-btn:hover {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .start-btn:hover {
@@ -148,7 +148,7 @@ div ul {
 }
 
 .btn-back:hover {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 #information-continue {
@@ -213,16 +213,11 @@ div ul {
     padding: 4rem;
 }
 
-
 #question,
 h2 {
     text-align: center;
     margin: 0;
     padding-bottom: 2rem;
-}
-
-ul {
-    padding: 0;
 }
 
 ul li {

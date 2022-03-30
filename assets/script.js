@@ -138,7 +138,7 @@ function noAnswers() {
  */
 
 function selectAnswers() {
-    let answer
+    let answer;
     answerElements.forEach(answerElements => {
         if (answerElements.checked) {
             answer = answerElements.id;
