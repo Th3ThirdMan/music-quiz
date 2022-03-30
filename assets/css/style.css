@@ -11,15 +11,6 @@ body {
     font-family: 'Poppins', sans-serif;
     background-image: url('../images/NTWICM.jpg');
 }
-/*
-#start-box,
-#information-area,
-#question-bank {
-    width: 100vw;
-    overflow: hidden;
-    height: 100vh;
-}
-*/
 
 .inner-box {
     display: flex;
@@ -31,6 +22,7 @@ body {
     border-radius: 10px;
     border: solid 1px #0f0d07;
     opacity: 0.9;
+    box-shadow: 10px 10px #61b03f;
 }
 
 #title-box {
@@ -103,6 +95,7 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     opacity: 0.9;
+    box-shadow: 10px 10px #61b03f;
 }
 
 #information-header {
@@ -194,6 +187,7 @@ div ul {
     border: 1px solid black;
     margin: 5% 5%;
     opacity: 0.9;
+    box-shadow: 10px 10px #61b03f;
 }
 
 .question-style {
@@ -203,7 +197,7 @@ div ul {
     width: 100%;
     text-align: left;
     background-color: white;
-    color:#0f0d07;
+    color: #0f0d07;
     font-family: roboto;
     font-weight: 400;
     padding: 10px;
@@ -241,7 +235,7 @@ ul li label {
 }
 
 #question-btn-back {
-    background-color:#61b03f;
+    background-color: #61b03f;
     color: #0f0d07;
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
@@ -256,12 +250,12 @@ ul li label {
 }
 
 #question-btn-back:hover {
-    background-color:#4f61d5;
+    background-color: #4f61d5;
     color: white;
 }
 
 #submit {
-    background-color:#61b03f;
+    background-color: #61b03f;
     color: #0f0d07;
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
@@ -276,7 +270,7 @@ ul li label {
 }
 
 #submit:hover {
-    background-color:#4f61d5;
+    background-color: #4f61d5;
     color: white;
 }
 
