@@ -133,8 +133,7 @@ The Information page gives simple instructions on how to complete the quiz and w
 
   <br>
 
-  ![Home Page Main Image](assets/images/start-page.png) 
-  *Figure 1.3*
+  ![Start Page](assets/images/start-page.png) 
 
   <br>
 
@@ -148,6 +147,10 @@ The Information page gives simple instructions on how to complete the quiz and w
 
   * Links at the base of the page give the visitor an option to visit the Gallery or Contact Page.
 
+  <br>
+
+  ![Information Page](assets/images/information-page.png)
+
   <br><br>
 
   ## The Questions Page
@@ -157,6 +160,8 @@ The Information page gives simple instructions on how to complete the quiz and w
   * 
 
   * 
+
+  ![Quiz Page](assets/images/quiz-page.png)
 
   <br><br>
 
@@ -212,9 +217,9 @@ The Information page gives simple instructions on how to complete the quiz and w
 
   <br>
 
-  * I encountered a few issues where the site didn't meet my intended expectations. This primarily resided in the arena of responsiveness when viewing the screen at mobile level. The navigation bar was reflected as a desktop view when rendered down to a mobile screen. A fix for this was to employ the flex property to adjust this issue and view the website in a proper mobile aspect.
+  * I encountered a few issues where the site didn't meet my intended expectations. This primarily resided in the arena of responsiveness when viewing the screen at mobile level. The quiz didn't render seamlessly in a landscape view. A fix for this was to dispense with static height and width properties that were yielding limitations when added to the body.
 
-  * I encountered issues with the sub-images and text on the landing page. A container class worked well here with the images and text, assuming an equality to both, which helped when viewing on lower height and width screens.
+  * Much to my chagrin, the project's quiz page featured radio buttons which wouldn't have been an initial preference for inclusion. They work as designed, but limitations in time and JavaScript learning prevented a nicer styling method whereby a user can submit answers. It wasn't necessarily a bug but I attempted many workarounds to diminish or hide their presence as I felt that they didn't quite suit the aesthetic of the quiz that I was hoping to make.
 
   * Again with the sub-images on the Welcome page the images didn't align correctly as per my expectation, but through testing and research the background-size property played a part in correcting this.
 
@@ -252,7 +257,7 @@ The Information page gives simple instructions on how to complete the quiz and w
     The content and media used during the project was sourced and referenced as follows:
 
     <br>
-    
+
      * Photo Editor [Pixlr](https://pixlr.com/x/#home)
      * Knowledge Base [W3Schools](https://www.w3schools.com/)
      * Responsive Aid [AmIResponsive](http://ami.responsivedesign.is/)
